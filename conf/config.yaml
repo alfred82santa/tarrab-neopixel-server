@@ -1,0 +1,33 @@
+server:
+  host: 0.0.0.0
+  port: 8080
+
+sectors:
+  -
+    name: gate1
+    pixel: 0
+    length: 30
+  -
+    name: gate2
+    pixel: 30
+    length: 30
+  -
+    name: gate3
+    pixel: 60
+    length: 30
+  -
+    name: gate4
+    pixel: 90
+    length: 30
+  -
+    name: gate5
+    pixel: 120
+    length: 30
+  -
+    name: gate6
+    pixel: 150
+    length: 30
+
+arduino:
+  port: /dev/ttyACM1
+  baudrate: 500000
